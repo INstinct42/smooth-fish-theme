@@ -54,12 +54,10 @@ function fish_prompt
   set -g __fish_git_prompt_showuntrackedfiles true
   set -g __fish_git_prompt_showstashstate true
   set -g __fish_git_prompt_show_informative_status true 
- 
-  # Line 1
-  echo -n $white'╭─'$hotpink$USER$white' in '$limegreen$current_folder$turquoise
-  __fish_git_prompt " (%s)"
-  echo
 
+  # Line 1
+  echo -n $limegreen$current_folder$turquoise
+  __fish_git_prompt " (%s)"
   # Line 2
-  echo -n $white'╰─'$__fish_prompt_char $normal
+  echo -n $white' '$__fish_prompt_char $normal
 end
