@@ -56,10 +56,10 @@ function fish_prompt
   set -g __fish_git_prompt_show_informative_status true 
  
   # Line 1
-  echo -n $black'╭─'$hotpink$USER$black' in '$limegreen$current_folder$turquoise
+  echo -n $white'╭─'$hotpink$USER$white' in '$limegreen$current_folder$turquoise
   __fish_git_prompt " (%s)"
   echo
 
   # Line 2
-  echo -n $black'╰─'$__fish_prompt_char $normal
+  echo -n $white'╰─'$__fish_prompt_char $normal
 end
