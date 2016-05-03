@@ -55,5 +55,5 @@ function fish_prompt
   set -g __fish_git_prompt_showstashstate true
   set -g __fish_git_prompt_show_informative_status true 
 
-  echo -n $limegreen $current_folder $turquoise (__fish_git_prompt) " (%s)" $white' '$__fish_prompt_char $normal
+  echo -n $limegreen $current_folder $turquoise __fish_git_prompt " (%s)" $white' '$__fish_prompt_char $normal
 end
