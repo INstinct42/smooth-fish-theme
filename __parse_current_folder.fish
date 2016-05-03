@@ -1,4 +1,4 @@
-function prompt_pwd --description 'Print the current working directory, shortened to fit the prompt'
+function __parse_current_folder --description 'Print the current working directory, shortened to fit the prompt'
 	set -l args_post
 	set -l args_pre
 	set -l realhome ~
